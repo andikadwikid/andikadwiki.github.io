@@ -16,9 +16,13 @@ li{
 }
 
 header{
+    overflow: hidden;
+    top:0;
     background-color: #334155;
     color: #fff;
-    height: 90px
+    height: 90px;
+    position: fixed;
+    width: 100%;
 }
 
 .header-title{
@@ -43,12 +47,9 @@ header{
     height: 100%;
 }
 
-/* main{
-    padding: 100px 80px;
-} */
-
 .main-content-title{
     padding: 50px 80px;
+    margin-top: 90px;
 }
 
 .content-title{
