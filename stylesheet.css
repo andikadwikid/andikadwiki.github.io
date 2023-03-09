@@ -20,7 +20,6 @@ header{
     top:0;
     background-color: #334155;
     color: #fff;
-    height: 90px;
     position: fixed;
     width: 100%;
 }
@@ -40,6 +39,7 @@ header{
 .header-list li a{
     color: #fff;
     text-decoration: none;
+    display: block;
 }
 
 .container{
